@@ -1,0 +1,159 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #2874f0;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar .logo a {
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.navbar .logo a span {
+  color: #ff9f00;
+}
+
+.search-bar input {
+  width: 400px;
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-btn {
+  color: #2874f0;
+  background-color: #fff;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.staff-login-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 15px;
+  transition: all 0.3s;
+}
+
+.staff-login-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.cart-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  transition: all 0.3s;
+  background: transparent;
+}
+
+.cart-link:hover {
+  background-color: #fff;
+  color: #2874f0;
+}
+
+.rec-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  transition: all 0.3s;
+  background: transparent;
+}
+
+.rec-link:hover {
+  background-color: #fff;
+  color: #2874f0;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-name {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.user-name.staff {
+  color: #fff;
+  font-weight: 500;
+}
+
+.dashboard-link {
+  color: #2874f0;
+  background-color: #fff;
+  padding: 8px 15px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.dashboard-link:hover {
+  background-color: #f0f0f0;
+}
+
+.logout-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #fff;
+  color: #2874f0;
+}
+
+@media (max-width: 768px) {
+  .search-bar input {
+    width: 200px;
+  }
+  
+  .login-btn {
+    padding: 5px 15px;
+  }
+}

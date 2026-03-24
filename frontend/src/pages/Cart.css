@@ -1,0 +1,169 @@
+.cart {
+  padding: 20px;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #f1f3f6;
+  min-height: calc(100vh - 70px);
+}
+
+.cart h2 {
+  color: #212121;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  margin-bottom: 15px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cartItem img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 2px;
+  margin-right: 20px;
+}
+
+.cartItemDetails {
+  flex: 1;
+}
+
+.cartItemName {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+  color: #212121;
+}
+
+.cartItemPrice {
+  font-size: 20px;
+  font-weight: 600;
+  color: #212121;
+  margin: 0 0 8px 0;
+}
+
+.cartItemActions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cartItemActions span {
+  font-size: 14px;
+  color: #666;
+}
+
+.removeBtn {
+  background-color: transparent;
+  color: #212121;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.removeBtn:hover {
+  background-color: #f0f0f0;
+}
+
+.cartTotal {
+  font-size: 24px;
+  font-weight: 600;
+  color: #212121;
+  text-align: right;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+
+/* Recommendations Section */
+.recommendations {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.recommendations h3 {
+  color: #212121;
+  font-size: 22px;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+
+.recSubtitle {
+  color: #666;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+.recGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.recCard {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  padding: 15px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.recCard:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.recCard img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.recName {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+  margin: 0 0 8px 0;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.recPrice {
+  font-size: 16px;
+  font-weight: 600;
+  color: #212121;
+  margin: 0 0 12px 0;
+}
+
+.addToCartBtn {
+  background-color: #ff9f00;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.addToCartBtn:hover {
+  background-color: #f08c00;
+}
